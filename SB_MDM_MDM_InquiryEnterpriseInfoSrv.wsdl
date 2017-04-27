@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions targetNamespace="http://service.business.nacao.ninemax.com" xmlns:soapenc12="http://www.w3.org/2003/05/soap-encoding" xmlns:tns="http://service.business.nacao.ninemax.com" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap11="http://schemas.xmlsoap.org/soap/envelope/" xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc11="http://schemas.xmlsoap.org/soap/encoding/" xmlns:soap12="http://www.w3.org/2003/05/soap-envelope">
+  <wsdl:types>
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://service.business.nacao.ninemax.com">
+      <xsd:element name="checkRDMInfo">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element maxOccurs="1" minOccurs="1" name="in0" nillable="true" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="checkRDMInfoResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element maxOccurs="1" minOccurs="1" name="out" nillable="true" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="resultFeedBackInfo">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element maxOccurs="1" minOccurs="1" name="in0" nillable="true" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="resultFeedBackInfoResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element maxOccurs="1" minOccurs="1" name="out" nillable="true" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="resultFeedBack">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element maxOccurs="1" minOccurs="1" name="in0" nillable="true" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="resultFeedBackResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element maxOccurs="1" minOccurs="1" name="out" nillable="true" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="monitorHealthy">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element maxOccurs="1" minOccurs="1" name="in0" nillable="true" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="monitorHealthyResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element maxOccurs="1" minOccurs="1" name="out" nillable="true" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="searchBGDMIInfo">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element maxOccurs="1" minOccurs="1" name="in0" nillable="true" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="searchBGDMIInfoResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element maxOccurs="1" minOccurs="1" name="out" nillable="true" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="searchDMInfo">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element maxOccurs="1" minOccurs="1" name="in0" nillable="true" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="searchDMInfoResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element maxOccurs="1" minOccurs="1" name="out" nillable="true" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="checkDMInfo">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element maxOccurs="1" minOccurs="1" name="in0" nillable="true" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="checkDMInfoResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element maxOccurs="1" minOccurs="1" name="out" nillable="true" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="checkDMInfoResponse">
+    <wsdl:part name="parameters" element="tns:checkDMInfoResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="checkDMInfoRequest">
+    <wsdl:part name="parameters" element="tns:checkDMInfo">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="checkRDMInfoResponse">
+    <wsdl:part name="parameters" element="tns:checkRDMInfoResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="searchDMInfoResponse">
+    <wsdl:part name="parameters" element="tns:searchDMInfoResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="resultFeedBackResponse">
+    <wsdl:part name="parameters" element="tns:resultFeedBackResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="monitorHealthyRequest">
+    <wsdl:part name="parameters" element="tns:monitorHealthy">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="monitorHealthyResponse">
+    <wsdl:part name="parameters" element="tns:monitorHealthyResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="resultFeedBackInfoRequest">
+    <wsdl:part name="parameters" element="tns:resultFeedBackInfo">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="resultFeedBackInfoResponse">
+    <wsdl:part name="parameters" element="tns:resultFeedBackInfoResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="checkRDMInfoRequest">
+    <wsdl:part name="parameters" element="tns:checkRDMInfo">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="searchBGDMIInfoRequest">
+    <wsdl:part name="parameters" element="tns:searchBGDMIInfo">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="searchDMInfoRequest">
+    <wsdl:part name="parameters" element="tns:searchDMInfo">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="searchBGDMIInfoResponse">
+    <wsdl:part name="parameters" element="tns:searchBGDMIInfoResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="resultFeedBackRequest">
+    <wsdl:part name="parameters" element="tns:resultFeedBack">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:portType name="DMDataServicePortType">
+    <wsdl:operation name="checkRDMInfo">
+      <wsdl:input name="checkRDMInfoRequest" message="tns:checkRDMInfoRequest">
+      </wsdl:input>
+      <wsdl:output name="checkRDMInfoResponse" message="tns:checkRDMInfoResponse">
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="resultFeedBackInfo">
+      <wsdl:input name="resultFeedBackInfoRequest" message="tns:resultFeedBackInfoRequest">
+      </wsdl:input>
+      <wsdl:output name="resultFeedBackInfoResponse" message="tns:resultFeedBackInfoResponse">
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="resultFeedBack">
+      <wsdl:input name="resultFeedBackRequest" message="tns:resultFeedBackRequest">
+      </wsdl:input>
+      <wsdl:output name="resultFeedBackResponse" message="tns:resultFeedBackResponse">
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="monitorHealthy">
+      <wsdl:input name="monitorHealthyRequest" message="tns:monitorHealthyRequest">
+      </wsdl:input>
+      <wsdl:output name="monitorHealthyResponse" message="tns:monitorHealthyResponse">
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="searchBGDMIInfo">
+      <wsdl:input name="searchBGDMIInfoRequest" message="tns:searchBGDMIInfoRequest">
+      </wsdl:input>
+      <wsdl:output name="searchBGDMIInfoResponse" message="tns:searchBGDMIInfoResponse">
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="searchDMInfo">
+      <wsdl:input name="searchDMInfoRequest" message="tns:searchDMInfoRequest">
+      </wsdl:input>
+      <wsdl:output name="searchDMInfoResponse" message="tns:searchDMInfoResponse">
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="checkDMInfo">
+      <wsdl:input name="checkDMInfoRequest" message="tns:checkDMInfoRequest">
+      </wsdl:input>
+      <wsdl:output name="checkDMInfoResponse" message="tns:checkDMInfoResponse">
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="DMDataServiceHttpBinding" type="tns:DMDataServicePortType">
+    <wsdlsoap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="checkRDMInfo">
+      <wsdlsoap:operation soapAction=""/>
+      <wsdl:input name="checkRDMInfoRequest">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="checkRDMInfoResponse">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="resultFeedBackInfo">
+      <wsdlsoap:operation soapAction=""/>
+      <wsdl:input name="resultFeedBackInfoRequest">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="resultFeedBackInfoResponse">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="resultFeedBack">
+      <wsdlsoap:operation soapAction=""/>
+      <wsdl:input name="resultFeedBackRequest">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="resultFeedBackResponse">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="monitorHealthy">
+      <wsdlsoap:operation soapAction=""/>
+      <wsdl:input name="monitorHealthyRequest">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="monitorHealthyResponse">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="searchBGDMIInfo">
+      <wsdlsoap:operation soapAction=""/>
+      <wsdl:input name="searchBGDMIInfoRequest">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="searchBGDMIInfoResponse">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="searchDMInfo">
+      <wsdlsoap:operation soapAction=""/>
+      <wsdl:input name="searchDMInfoRequest">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="searchDMInfoResponse">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="checkDMInfo">
+      <wsdlsoap:operation soapAction=""/>
+      <wsdl:input name="checkDMInfoRequest">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="checkDMInfoResponse">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="DMDataService">
+    <wsdl:port name="DMDataServiceHttpPort" binding="tns:DMDataServiceHttpBinding">
+      <wsdlsoap:address location="http://10.20.21.29/newdiss/services/DMDataService"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
